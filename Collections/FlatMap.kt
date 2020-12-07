@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
 
     println("===================MAP=======================")
     val mm  = mutableMapOf(1 to "eqr", 2 to "dfg", 3 to "qwe", 4 to "xzc")
-    println("1. Map : $mm")
+    println("1. Map : $mm ")
     val mm2 = mm.flatMap { if(it.key > 2) it.value.toList() else listOf() }
     println("2. Map->List : $mm2")
 
