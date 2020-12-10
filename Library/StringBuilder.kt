@@ -15,7 +15,7 @@ fun main(args : Array<String>) {
     str.append('Q')             // Char 타입
     str.append(true)            // Boolean 타입
     str.append(5431)
-    str.append("DFSDE")
+    str.append("DFSDEq")
     str.append("treq")
 
     println("2. 문자열 : $str")
